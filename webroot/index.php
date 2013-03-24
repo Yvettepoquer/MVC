@@ -12,6 +12,6 @@ define('CSS', BASE_URL.'/webroot/css/');
 define('JS', BASE_URL.'/webroot/js/');
 define('IMG', BASE_URL.'/webroot/img/');
 
-require(CORE.DS.'includes.php');
+require(CORE.DS.'includes.php'); //test
 $dispatcher = new Dispatcher();
 
